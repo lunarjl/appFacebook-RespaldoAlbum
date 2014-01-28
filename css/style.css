@@ -1,0 +1,127 @@
+body
+{
+	width: 100%;
+	height: 100%;
+	background: #0d3d85 url("../ima/fondo.png") no-repeat center;
+	background-size: cover;
+	position: fixed;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#header
+{
+	width: 100%;
+	height: 100px;
+	font-size: 4em;
+	text-align: center;
+	background:#0d7085;
+	color: #75bccb;
+	box-shadow: 0em 0em 1em black;
+		font-family: 'Skranji', cursive;
+}
+
+#recuadro 
+{
+	width: 500px;
+	height: 500px;
+	margin: 100px auto;
+
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	box-shadow: 0em 0em 1em black;
+}
+	#recuadro span{display: inline-block;}
+	.titulo{font-size: 4em;background:#0752c2;width: 97%;height: 20%; padding-left: 3%;}
+	.descripcion{font-size: 1.5em; background: #255092; width: 97%; height:30%; text-align: left; padding-left: 3%;}
+	.explicacion{font-size: 1.2em;background: #0D3D85;width: 97%;height:35%;padding-left: 3%;text-align: left;}
+	#recuadro button{width: 90%;height: 15%;background:rgba(36,140,53,.7);font-size: 3em;padding: 0;}
+#footer
+{
+	width: 50%;
+	height: 200px;
+	background: url("../ima/txt_fb.png") no-repeat center;
+	background-size: contain;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+
+
+
+
+/*****************************************************************************************************************/
+#datosPrincipales
+{
+	width: 50%;
+	height: 80%;
+	float: left;
+	background: #5b8cd5;
+	margin-top: 5%;
+}
+	#datosPrincipalesContenedor{overflow: auto;width: 100%;height:70%}
+	#avatar{box-shadow: 0em 0em 1em black;}
+	.txt{padding: 10px;font-size: 1.5em; text-align: center; width: 60%;background:#7487a4;display: inline-block;clear: both;float: left;font-family: 'Days One', sans-serif;color: #bfc9d9;}
+	.data{padding: 10px;font-size: 1.8em;background: #59749b;display: inline-block;min-width: 90%;float: right;font-family: 'Doppio One', sans-serif;border-radius: 0em 0em 0em 1em;margin-bottom: 3px;}
+#datosEducacion,#datosTrabajos
+{
+	width: 50%;
+	height: 50%;
+	float: left;
+	background: #567db6;
+}
+#datosTrabajos{background: #3a7ce0}
+	.txtEncabezado{display: inline-block;text-align: center;font-size: 2em;padding: 10px;background: #5614a7;font-family: 'Days One', sans-serif;color: #bfc9d9;clear: both;}
+hr{height: .2em; width: 80%;clear: both;display: inline-block;margin: 0 auto;border: 2px solid #052350; margin-top: .5em;}
+
+/*****************************************************************************************************************/
+
+
+
+
+
+/*Procesa (cover album)*/
+
+#tituloAlbum
+{
+	width: 100%;
+	height: 2.5em;
+	text-align: center;
+	font-size: 2em;
+	background: gray;
+}
+
+.contCover
+{
+	width: 250px;
+	height: 250px;
+	float: left;
+	border: 2px solid red;
+}
+.contCover img
+{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background:red;
+	background-size:contain;
+
+}
+.contNombre
+{
+	width: 100%;
+	height: 2em;
+	background: gray;
+}
+.contNombre a
+{
+	display: inline-block;
+	min-width: 100px;
+	background: red;
+	font-size: 2em;
+	text-align: center;
+	float: left;
+	text-decoration: none;
+	clear: left;
+}

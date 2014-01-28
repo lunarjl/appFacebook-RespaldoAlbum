@@ -1,0 +1,168 @@
+/*by jose luis luna rubio*/
+body
+{
+	background: rgba(9,57,156,1);
+	font-size: 16px;
+}
+
+header
+{
+	width: 100%;
+	height: 150px;
+}
+	#avatar 
+	{
+		width: 150px;
+		height: 150px;
+		position: absolute;
+		left: 0;
+		z-index: 1;	
+	}
+
+	#barra
+	{
+		width: 100%;
+		height: 100px;
+		top: 20px;
+		position: absolute;
+		background: rgba(16,45,105,1);
+	}
+	#barra p
+	{
+		display: inline-block;
+		float: left;
+		padding-left: 150px;
+		font-size: 2em;
+		margin:0;
+		color: #849693;
+	}
+	#barra .tituloAplicacion
+	{
+		display: inline-block;
+		float: right;
+		font-size: 5em;
+		text-align: center;
+	}
+
+
+	section
+	{
+		width: 100%;
+		height: 80%;
+		float: left;
+	
+	}
+
+	section .atras,  section .adelante
+	{
+		width: 50px;
+		height: 300px;
+		position: absolute;
+		background:#102d69;
+	}
+
+	section .atras   {left: 20px;top: 30%;}
+	section .adelante{right: 20px;top: 30%;}
+
+	section article
+	{
+		float: left;
+		width: 230px;
+		height: 230px;
+		margin-left: 5px;
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+	.icono 
+	{
+		width: 50px;
+		height: 50px;
+		background: red;
+		display: inline-block;
+		float: right;
+		position: absolute;
+		z-index: 1;
+		top: -15px;
+		left: -15px;
+	}
+
+	.iconoZip
+	{
+		width: 50px;
+		height: 50px;
+		display: inline-block;
+		float: right;
+		position: absolute;
+		z-index: 1;
+		top: -15px;
+		left: 50px;
+		overflow: hidden;
+	}
+		.icono p
+	{
+		position: absolute;
+		top: 25px;
+		right: 5px;
+		z-index: 2;
+		margin: 0;
+		font-weight: bold;
+		text-align: center;
+		font-size: 1.5em;
+	}
+	.cover
+	{
+		position: absolute;
+		top: 0;
+		z-index: 0;
+		left: 20px;
+	}
+
+ 	figure
+ 	{
+ 		position: relative;
+ 	}
+
+ 	figcaption 
+ 	{
+ 		margin-top: 195px;
+ 		float: left;
+ 		width: 100%;
+ 		height: 35px;
+ 		border-left: solid #05173c 5px;
+ 		border-right: solid #05173c 5px;
+ 		border-bottom: solid #05173c 5px;
+ 		color: #849693;
+ 	}
+	figcaption p{margin: 0;text-align: center;font-size: 1.3em;}
+	#contAlbum
+	{
+		width: 90%;
+		height: 100%;
+		margin-left: 5%;
+		overflow: auto;
+	}
+
+	footer
+	{
+		position: absolute;
+		bottom: 0px;
+		background: rgba(16,45,105,1);
+		text-align: center;
+		font-size: 1.5em;
+		width: 100%;
+		height: 50px;
+		
+
+	}
+	footer p 
+	{
+		margin: 0;
+		color: #849693;
+	}
+
+#accionesPendientes
+{
+	width: 0%;
+	height: auto;
+	float: right;
+}
